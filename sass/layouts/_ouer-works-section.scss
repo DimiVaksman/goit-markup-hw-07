@@ -1,0 +1,53 @@
+
+.ouer-works-list {
+    display: flex;
+    
+  }
+  
+  .ouer-works-tittle{
+  margin-bottom: 10px;
+  margin-top: 0;
+  
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+  }
+  
+  .ouer-works-item{
+
+  &:not(:last-child){
+    margin-right: 30px;
+    }
+  }
+  
+  
+  
+  .ouer-works-text{
+    font-family: var(--primary-font);
+    color: var(--secandary-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  
+  
+  .ouer-works-icon-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    align-items: center;
+  }
+  
+  .ouer-works-icon{
+    display: flex;
+    justify-content: center;
+  }

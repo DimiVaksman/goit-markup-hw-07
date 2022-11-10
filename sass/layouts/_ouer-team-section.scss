@@ -1,0 +1,95 @@
+.ouer-team {
+    background-color:#F5F4FA;
+  }
+  
+.team-tittle{
+    margin-bottom: 10px;
+  }
+  
+.ouer-team-tittle-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.ouer-team-tittle{
+    margin-bottom: 50px;
+  
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  /* .ouer-team-item{
+    padding-bottom: 94px; */
+  
+.ouer-team-item{
+      background: #FFFFFF;
+  
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+    }
+  
+    }
+  
+
+  
+  .team-tittle {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+  }
+  
+  
+  
+  .ouer-taem-text {
+  
+    font-family: var(--primary-font);
+    color: var(--secandary-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+  }
+
+  /* ---------------------------------------ICONS */
+  .soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .soc-item {
+    width: 44px;
+    height: 44px;
+  }
+  .soc-links {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),  color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  
+    &:hover,
+    &:focus {
+    background-color: var(--blue-color);
+    color: #FFFFFF;
+  }
+  }
+  
+
+.icon-soc{
+  fill: currentColor;
+}

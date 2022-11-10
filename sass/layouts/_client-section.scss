@@ -1,0 +1,42 @@
+.tittle-client{
+    font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+  }
+  
+  .client-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .client-item {
+    width: 170px;
+    height: 92px;
+  }
+  .client-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   &:hover,
+   &:focus {
+  color: var(--blue-color);
+  }
+  }
+  
+  .client-icon{
+  fill: currentColor;
+  }
+  
