@@ -735,7 +735,7 @@ span {
   border: 1px solid #EEEEEE;
 }
 
-.tittle-client {
+.client-section__title {
   font-family: var(--primary-font);
   font-weight: 700;
   font-size: 36px;
@@ -746,18 +746,18 @@ span {
   margin-bottom: 50px;
 }
 
-.client-list {
+.client-section__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.client-item {
+.client-section__item {
   width: 170px;
   height: 92px;
 }
 
-.client-link {
+.client-section__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -769,11 +769,11 @@ span {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-link:hover, .client-link:focus {
+.client-section__link:hover, .client-section__link:focus {
   color: var(--blue-color);
 }
 
-.client-icon {
+.client-section__icon {
   fill: currentColor;
 }
 

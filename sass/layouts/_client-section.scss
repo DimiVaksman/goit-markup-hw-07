@@ -1,5 +1,5 @@
-.tittle-client{
-    font-family: var(--primary-font);
+.client-section__title{
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -9,16 +9,16 @@
   margin-bottom: 50px;
   }
   
-  .client-list {
+  .client-section__list {
     display: flex;
     justify-content: center;
     gap: 30px;
   }
-  .client-item {
+  .client-section__item {
     width: 170px;
     height: 92px;
   }
-  .client-link {
+  .client-section__link {
     width: 100%;
     height: 100%;
     display: flex;
@@ -36,7 +36,7 @@
   }
   }
   
-  .client-icon{
+  .client-section__icon{
   fill: currentColor;
   }
   
