@@ -1,32 +1,17 @@
 .header{
-    border-bottom: 1px solid #ECECEC;
 
  & .container{
-  @extend align-list;
+  @extend %align-list;
     }
+  }
+
+  .header-border{
+    border-bottom: 1px solid #ECECEC;
   }
   
  
-.nav {
-  @extend align-list;
-  }
-  
-  
-.logo{
-  
-   display: flex;
-   margin-right: 93px;
-   padding-top: 24px;
-   padding-bottom: 25px;
-  
-    font-family: var(--secandary-font);
-    color: var(--primary-color);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    list-style: none;
+.navigation {
+  @extend %align-list;
   }
   
 
@@ -35,11 +20,11 @@ span {
   }
   
   
-.nav-links {
+.menu {
     display: flex;
     padding-inline-start:0%;
   
-    & .item-nav.item-nav:not(:last-child)
+    & .menu__item.menu__item:not(:last-child)
     {
       margin-right: 50px;
     }
@@ -47,7 +32,7 @@ span {
 
 
   
-.navlinks{
+.menu__link{
     display: block;
   
     position: relative;
@@ -91,27 +76,24 @@ span {
   }
   
   
-  .header-addres-auth{
+  .connect{
     display: flex;
     align-items: baseline;
     margin-left: auto;
     
-    & .item-nav:not(:last-child){
+    & .connect__item:not(:last-child){
       margin-right: 50px;
     }
   }
   
   
-  .header-addres {
+  .connect__link {
     
-    @extend align-list;
+    @extend %align-list;
     
     font-family: var(--primary-font);
     color: var(--secandary-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font (14px, 1.14, 500, 0.02em );
     text-decoration: none;
     list-style-type: none;
   
@@ -124,7 +106,7 @@ span {
   }
   
  
-  .icon-header{
+  .connect__icon{
     margin-right: 10px;
     fill: currentColor;
   

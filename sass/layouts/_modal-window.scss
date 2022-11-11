@@ -29,7 +29,7 @@
   }
   
   .modal-close{
-    @extend align-list;
+    @extend %align-list;
   justify-content: center;
   
   width: 30px;
@@ -220,7 +220,7 @@
   
   
   .label-checkbox{
-    @extend align-list;
+    @extend %align-list;
   justify-content: center;
   font-family: var(--primary-font);
   font-size: 14px;

@@ -31,7 +31,7 @@
 .footer-submit {
   position: relative;
   
-  @extend align-list;
+  @extend %align-list;
   padding-left: 28px;
   
   width: 200px;

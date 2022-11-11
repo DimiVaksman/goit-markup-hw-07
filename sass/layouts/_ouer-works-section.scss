@@ -38,7 +38,7 @@
   
   
   .ouer-works-icon-container{
-    @extend align-list;
+    @extend %align-list;
     justify-content: center;
     margin-bottom: 30px;
     width: 270px;
