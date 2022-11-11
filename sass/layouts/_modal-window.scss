@@ -29,8 +29,7 @@
   }
   
   .modal-close{
-  display: flex;
-  align-items: center;
+    @extend align-list;
   justify-content: center;
   
   width: 30px;
@@ -221,9 +220,8 @@
   
   
   .label-checkbox{
-  display: flex;
+    @extend align-list;
   justify-content: center;
-  align-items: center;
   font-family: var(--primary-font);
   font-size: 14px;
   line-height: 1.71;

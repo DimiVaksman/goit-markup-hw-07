@@ -2,16 +2,13 @@
     border-bottom: 1px solid #ECECEC;
 
  & .container{
-      display: flex;
-      align-items: center;
-    
+  @extend align-list;
     }
   }
   
  
 .nav {
-    display: flex;
-    align-items: center;
+  @extend align-list;
   }
   
   
@@ -107,8 +104,7 @@ span {
   
   .header-addres {
     
-    display: flex;
-    align-items: center;
+    @extend align-list;
     
     font-family: var(--primary-font);
     color: var(--secandary-color);
