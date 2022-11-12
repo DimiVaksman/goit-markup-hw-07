@@ -6,16 +6,16 @@
   margin-bottom: 50px;
   }
   
-  .client-section__list {
+  .clients-list {
     display: flex;
     justify-content: center;
     gap: 30px;
   }
-  .client-section__item {
+  .clients-list__item  {
     width: 170px;
     height: 92px;
   }
-  .client-section__link {
+  .clients-list__link {
     width: 100%;
     height: 100%;
     @extend %align-list;
@@ -32,7 +32,7 @@
   }
   }
   
-  .client-section__icon{
+  .clients-list__icon{
   fill: currentColor;
   }
   
