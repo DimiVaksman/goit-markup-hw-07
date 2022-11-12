@@ -1,10 +1,10 @@
 
-.ouer-works-list {
+.advantages__list {
     display: flex;
     
   }
   
-  .ouer-works-tittle{
+  .advantages__title{
   margin-bottom: 10px;
   margin-top: 0;
   
@@ -18,7 +18,7 @@
   
   }
   
-  .ouer-works-item{
+  .advantages__item{
 
   &:not(:last-child){
     margin-right: 30px;
@@ -27,7 +27,7 @@
   
   
   
-  .ouer-works-text{
+  .advantages__text{
     font-family: var(--primary-font);
     color: var(--secandary-color);
     font-weight: 400;
@@ -37,7 +37,7 @@
   }
   
   
-  .ouer-works-icon-container{
+  .advantages__container{
     @extend %align-list;
     justify-content: center;
     margin-bottom: 30px;
@@ -46,7 +46,7 @@
     background-color: #F5F4FA;
   }
   
-  .ouer-works-icon{
+  .advantages__icon{
     display: flex;
     justify-content: center;
   }
