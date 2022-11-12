@@ -60,7 +60,7 @@ button {
   cursor: pointer;
 }
 
-.label-checkbox, .modal-close, .client-section__link, .footer-submit, .footer-icon-link, .soc-list__link, .occupation__text, .advantages__container, .connect__link, .navigation, .header .container {
+.label-checkbox, .modal-close, .client-section__link, .footer-submit, .footer-icon-link, .soc-list__link, .pictures-list__text, .card-list__container, .connect__link, .navigation, .header .container {
   display: flex;
   align-items: center;
 }
@@ -245,11 +245,11 @@ span {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.advantages__list {
+.card-list {
   display: flex;
 }
 
-.advantages__title {
+.card-list__title {
   margin-bottom: 10px;
   margin-top: 0;
   font-family: var(--primary-font);
@@ -261,11 +261,11 @@ span {
   text-transform: uppercase;
 }
 
-.advantages__item:not(:last-child) {
+.card-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.advantages__text {
+.card-list__text {
   font-family: var(--primary-font);
   color: var(--secandary-color);
   font-weight: 400;
@@ -274,7 +274,7 @@ span {
   letter-spacing: 0.03em;
 }
 
-.advantages__container {
+.card-list__container {
   justify-content: center;
   margin-bottom: 30px;
   width: 270px;
@@ -282,27 +282,27 @@ span {
   background-color: #F5F4FA;
 }
 
-.advantages__icon {
+.card-list__icon {
   display: flex;
   justify-content: center;
 }
 
-.occupation {
+.we-do {
   padding-top: 0;
 }
 
-.occupation__list {
+.pictures-list {
   display: flex;
 }
 
-.occupation__item {
+.pictures-list__item {
   position: relative;
 }
-.occupation__item:not(:last-child) {
+.pictures-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.occupation__title {
+.we-do__title {
   margin-bottom: 50px;
   font-family: var(--primary-font);
   color: var(--primary-color);
@@ -313,7 +313,7 @@ span {
   text-align: center;
 }
 
-.occupation__text {
+.pictures-list__text {
   font-family: var(--primary-font);
   font-weight: 700;
   line-height: 1.14;
@@ -335,7 +335,7 @@ span {
   margin-bottom: 10px;
 }
 
-.team__list {
+.people-list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -351,12 +351,12 @@ span {
   text-align: center;
 }
 
-.team__item {
+.people-list__item {
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team__item:not(:last-child) {
+.people-list__item:not(:last-child) {
   margin-right: 30px;
 }
 

@@ -1,10 +1,10 @@
 
-.advantages__list {
+.card-list {
     display: flex;
     
   }
   
-  .advantages__title{
+  .card-list__title{
   margin-bottom: 10px;
   margin-top: 0;
   
@@ -18,7 +18,7 @@
   
   }
   
-  .advantages__item{
+  .card-list__item{
 
   &:not(:last-child){
     margin-right: 30px;
@@ -27,7 +27,7 @@
   
   
   
-  .advantages__text{
+  .card-list__text{
     font-family: var(--primary-font);
     color: var(--secandary-color);
     font-weight: 400;
@@ -37,7 +37,7 @@
   }
   
   
-  .advantages__container{
+  .card-list__container{
     @extend %align-list;
     justify-content: center;
     margin-bottom: 30px;
@@ -46,7 +46,7 @@
     background-color: #F5F4FA;
   }
   
-  .advantages__icon{
+  .card-list__icon{
     display: flex;
     justify-content: center;
   }
