@@ -2,16 +2,13 @@
     background-color:#F5F4FA;
   }
   
-.team-tittle{
-    margin-bottom: 10px;
-  }
   
 .people-list{
     display: flex;
     flex-wrap: wrap;
   }
   
-.team__tittle{
+.team__title{
     margin-bottom: 50px;
     font-family: var(--primary-font);
     color: var(--primary-color);
@@ -40,6 +37,7 @@
     font-family: var(--primary-font);
     color: var(--primary-color);
     @include font(16px, 1.18, 500, 0.03em);
+    margin-bottom: 10px;
   }
   
   
